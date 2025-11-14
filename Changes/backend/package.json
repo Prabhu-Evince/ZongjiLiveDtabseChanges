@@ -1,0 +1,24 @@
+{
+  "name": "datbasechanges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@powersync/mysql-zongji": "^0.5.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "http": "^0.0.1-security",
+    "knex": "^3.1.0",
+    "mysql2": "^3.15.3",
+    "socket.io": "^4.8.1",
+    "zongji": "^0.5.1"
+  }
+}
